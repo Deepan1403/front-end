@@ -1,0 +1,48 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+/* Styling for both employee sections */
+
+
+/* Styling for the entire page */
+h1{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for submit and search buttons */
+input[type="submit"],
+.search-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
